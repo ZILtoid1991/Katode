@@ -1,0 +1,6 @@
+name "katode"
+description "KATE plugin development kit for the D Language"
+authors "laszl"
+copyright "Copyright © 2026, laszl"
+license "LGPL-3.0-or-later"
+dependency "dqt:core" version="*"
