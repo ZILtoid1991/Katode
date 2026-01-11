@@ -35,7 +35,7 @@ import qt.core.object;
  * \since 5.53
  * \sa KTextEditor::AbstractAnnotationItemDelegate
  */
-extern(C++, KTextEditor):
+extern(C++, KTextEditor)
 class StyleOptionAnnotationItem : QStyleOption {
 public:
     // TODO: not sure what SO_Default implies, but no clue how to maintain a user type registry?
@@ -152,7 +152,7 @@ public:
  * \since 5.53
  * \sa KTextEditor::AnnotationModel, KTextEditor::AnnotationViewInterface
  */
-export class AbstractAnnotationItemDelegate : QObject {
+extern(C++) export class AbstractAnnotationItemDelegate : QObject {
     mixin(Q_OBJECT);
 
 // protected:

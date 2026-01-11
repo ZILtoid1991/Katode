@@ -63,7 +63,7 @@ import KTextEditor.document;
  *
  * \sa KTextEditor::Cursor, KTextEditor::MovingCursor
  */
-extern(C++, KTextEditor) struct DocumentCursor {
+extern(C++, KTextEditor) extern(C++, class) struct DocumentCursor {
     //
     // sub types
     //
